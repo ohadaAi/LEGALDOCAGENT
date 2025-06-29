@@ -1,0 +1,19 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agno>=1.6.3",
+    "aiofiles>=24.1.0",
+    "cohere>=5.15.0",
+    "fastapi>=0.115.14",
+    "fastembed>=0.7.1",
+    "more-itertools>=10.7.0",
+    "openai>=1.90.0",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.0",
+    "qdrant-client>=1.14.3",
+    "uvicorn>=0.34.3",
+]
