@@ -21,7 +21,7 @@ vector_db = Qdrant(
 )
 
 # Point to your folder
-base_dir = Path(r"C:\Users\touse\OneDrive\Desktop\RAG\data")
+base_dir = Path("uploaded_docs")
 inputs = []
 
 # Add PDFs in the base directory
